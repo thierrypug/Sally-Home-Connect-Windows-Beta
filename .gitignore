@@ -1,0 +1,59 @@
+# Secrets et configuration locale
+.env
+.env-beta
+.env.*
+*.pem
+*.key
+*.pfx
+licence.json
+alpha.key
+
+# Données Sally Home Connect
+logement.json
+modules.json
+appairages.json
+enocean_config.json
+scenarios.json
+schedules.json
+zones.json
+zigbee-boutons.json
+backups/
+data/
+logs/
+
+# Code et dépendances à ne jamais publier dans ce dépôt public
+server.js
+storage.js
+voice.js
+voice-server.js
+enocean.js
+serialPort.js
+utils.js
+licence.js
+licence-id.js
+licence-key.js
+routes/
+services/
+views/
+public/
+python/
+runtime/
+node_modules/
+zigbee2mqtt/
+mosquitto/
+
+# Fichiers de génération et installateurs
+release/
+output/
+*.exe
+*.msi
+*.zip
+installer-sally.iss
+preparer-beta.ps1
+
+# Fichiers système et éditeurs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
