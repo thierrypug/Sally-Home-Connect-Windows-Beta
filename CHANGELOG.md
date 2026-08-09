@@ -1,5 +1,13 @@
 # Changements
 
+## Version 0.1.1-beta — Création du mot de passe administrateur
+
+- aucun mot de passe temporaire n’est fourni ;
+- au premier accès à la Configuration, l’utilisateur crée son propre mot de passe ;
+- confirmation visuelle lorsque les deux mots de passe sont identiques ;
+- bouton pour afficher ou masquer le mot de passe ;
+- le mot de passe est conservé localement dans le dossier de données de l’utilisateur.
+
 ## Version 0.1.0-beta — Bêta Windows
 
 Première version bêta de Sally Home Connect pour Windows.
@@ -7,14 +15,10 @@ Première version bêta de Sally Home Connect pour Windows.
 ### Fonctionnalités
 
 - installation Windows avec raccourci sur le Bureau ;
-- démarrage automatique de Sally dans le navigateur ;
-- fonctionnement local via HTTPS ;
-- prise en charge EnOcean ;
-- prise en charge Zigbee ;
-- gestion des pièces et des équipements ;
-- pilotage des éclairages, volets, chauffages et relais ;
-- scénarios ;
+- essai gratuit de 60 jours ;
+- gestion EnOcean et Zigbee ;
 - commande vocale ;
+- scénarios ;
 - documentation intégrée ;
 - accès administrateur protégé pour les pages de configuration ;
 - licence d’essai de 60 jours.
