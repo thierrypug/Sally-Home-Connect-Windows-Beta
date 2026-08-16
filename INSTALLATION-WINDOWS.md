@@ -23,10 +23,10 @@ Node.js est déjà inclus dans l’installateur : aucune installation supplémen
 ## Télécharger Sally
 
 1. Ouvrez l’onglet **Releases** du dépôt GitHub.
-2. Téléchargez :
+2. Téléchargez le fichier de la dernière version publiée :
 
    ```text
-   SallyHomeConnect-Setup-Beta-60j.exe
+   SallyHomeConnect-Setup-Beta-60j-v0.1.1.exe
    ```
 
 3. Une fois le téléchargement terminé, double-cliquez sur le fichier.
@@ -37,7 +37,7 @@ Node.js est déjà inclus dans l’installateur : aucune installation supplémen
 2. Conservez le dossier proposé :
 
    ```text
-   C:\Program Files\Sally Home Connect
+   C:\\Program Files\\Sally Home Connect
    ```
 
 3. Cochez l’option permettant de créer une icône sur le Bureau.
@@ -55,6 +55,13 @@ https://127.0.0.1:3443
 
 Un avertissement peut apparaître car Sally utilise un certificat HTTPS local. Acceptez l’avertissement afin d’ouvrir l’application.
 
+## Points à connaître pour cette bêta
+
+- La compatibilité dépend des modules EnOcean et Zigbee utilisés.
+- Le port série des dongles peut varier d’un ordinateur à l’autre ; vérifiez sa configuration si un équipement n’est pas détecté.
+- L’avertissement HTTPS au premier lancement est normal : Sally fonctionne localement avec un certificat local.
+- Des améliorations d’interface et de compatibilité seront apportées à partir des retours des testeurs.
+
 ## Dossier des données
 
 Vos données ne sont pas enregistrées dans le dossier du programme.
@@ -62,7 +69,7 @@ Vos données ne sont pas enregistrées dans le dossier du programme.
 Elles se trouvent ici :
 
 ```text
-C:\Users\VotreNom\AppData\Local\Sally Home Connect\data
+C:\\Users\\VotreNom\\AppData\\Local\\Sally Home Connect\\data
 ```
 
 Ce dossier contient notamment :
