@@ -1,104 +1,103 @@
 # Installation de Sally Home Connect sous Windows
 
-## Matériel nécessaire
+## Ce qu'il faut
 
-Sally Home Connect pilote des équipements domotiques réels.
+- Windows 10 ou Windows 11, 64 bits ;
+- les droits administrateur pour installer le programme ;
+- un navigateur récent (Edge, Chrome, Firefox).
 
-Selon votre installation, vous avez besoin de :
+Node.js est inclus dans l'installateur : rien d'autre à installer.
 
-- **EnOcean** : un dongle USB EnOcean compatible, connecté à l’ordinateur ;
-- **Zigbee** : une passerelle ou un dongle Zigbee compatible, configuré avec Zigbee2MQTT ;
-- les modules domotiques correspondants : éclairages, volets, relais, chauffages, capteurs, etc.
+**Pour piloter de vrais appareils**, il faut aussi une clé USB branchée sur l'ordinateur :
 
-Vous pouvez installer Sally sans matériel pour découvrir l’interface. En revanche, le pilotage réel des équipements nécessite le matériel adapté.
+| Technologie | Clés reconnues |
+|---|---|
+| Zigbee | Sonoff ZBDongle-P, Sonoff ZBDongle-E, ConBee II |
+| EnOcean | EnOcean USB 300 |
 
-## Prérequis
+**Sans matériel**, tu peux tout découvrir avec la démonstration (maison et appareils simulés).
 
-- Windows 10 ou Windows 11 en 64 bits ;
-- droits administrateur pour installer le programme ;
-- un navigateur web récent.
+## Télécharger
 
-Node.js est déjà inclus dans l’installateur : aucune installation supplémentaire n’est nécessaire.
-
-## Télécharger Sally
-
-1. Ouvrez l’onglet **Releases** du dépôt GitHub.
-2. Téléchargez le fichier de la dernière version publiée :
+1. Ouvre l'onglet **Releases** du dépôt GitHub.
+2. Télécharge le fichier de la dernière version, par exemple :
 
    ```text
-   SallyHomeConnect-Setup-Beta-60j-v0.1.1.exe
+   SallyHomeConnect-Setup-Beta-v0.2.1-beta.exe
    ```
 
-3. Une fois le téléchargement terminé, double-cliquez sur le fichier.
+3. Double-clique sur le fichier téléchargé.
 
-## Installer Sally
+Windows peut afficher « Windows a protégé votre ordinateur » : l'installateur n'est pas encore signé.
+Clique sur **Informations complémentaires** puis **Exécuter quand même**.
 
-1. Acceptez la demande d’autorisation Windows.
-2. Conservez le dossier proposé :
+## Installer
 
-   ```text
-   C:\\Program Files\\Sally Home Connect
-   ```
+1. Accepte la demande d'autorisation de Windows.
+2. Garde le dossier proposé (`C:\Program Files\Sally Home Connect`).
+3. Laisse cochée l'icône sur le Bureau. Coche « Démarrer Sally avec Windows » si tu veux qu'elle se lance
+   à chaque démarrage de l'ordinateur.
+4. Termine l'installation : Sally démarre et ton navigateur s'ouvre.
 
-3. Cochez l’option permettant de créer une icône sur le Bureau.
-4. Terminez l’installation.
-
-Sally Home Connect démarre automatiquement à la fin de l’installation.
+**Tu avais une bêta 0.1 ?** Installe simplement par-dessus : l'ancienne version est remplacée.
+Tes appareils devront être ajoutés à nouveau, car Sally a été entièrement refaite (voir le CHANGELOG).
 
 ## Premier démarrage
 
-Sally s’ouvre dans votre navigateur à l’adresse :
+Le navigateur s'ouvre sur :
 
 ```text
-https://127.0.0.1:3443
+https://localhost
 ```
 
-Un avertissement peut apparaître car Sally utilise un certificat HTTPS local. Acceptez l’avertissement afin d’ouvrir l’application.
+Il affiche un avertissement de sécurité : c'est normal, Sally utilise son propre certificat, créé sur ton
+ordinateur. Clique sur **Paramètres avancés** puis **Continuer vers localhost**.
 
-## Points à connaître pour cette bêta
+Branche ta clé USB **avant** de démarrer Sally : elle la trouve toute seule. Ajoute ensuite tes appareils
+avec le bouton **Ajouter un appareil**.
 
-- La compatibilité dépend des modules EnOcean et Zigbee utilisés.
-- Le port série des dongles peut varier d’un ordinateur à l’autre ; vérifiez sa configuration si un équipement n’est pas détecté.
-- L’avertissement HTTPS au premier lancement est normal : Sally fonctionne localement avec un certificat local.
-- Des améliorations d’interface et de compatibilité seront apportées à partir des retours des testeurs.
+## Les raccourcis
 
-## Dossier des données
+Dans le menu Démarrer, dossier **Sally Home Connect** :
 
-Vos données ne sont pas enregistrées dans le dossier du programme.
+- **Sally Home Connect** : ta maison (aussi sur le Bureau) ;
+- **Sally Home Connect - Démonstration** : la maison simulée, sur `https://localhost:3443` ;
+- **Arrêter Sally Home Connect** : arrête Sally et la démonstration ;
+- **Lisez-moi** et **Désinstaller**.
 
-Elles se trouvent ici :
+Sally tourne sans fenêtre. Cliquer de nouveau sur le raccourci rouvre simplement le navigateur.
+
+## Sur le téléphone
+
+Connecte le téléphone au même Wi-Fi que l'ordinateur et ouvre :
 
 ```text
-C:\\Users\\VotreNom\\AppData\\Local\\Sally Home Connect\\data
+https://sally.local
 ```
 
-Ce dossier contient notamment :
+Accepte l'avertissement de sécurité comme sur l'ordinateur. Tu peux ensuite ajouter Sally à l'écran
+d'accueil du téléphone (menu du navigateur → « Ajouter à l'écran d'accueil »).
 
-- la configuration du logement ;
-- les pièces ;
-- les équipements ;
-- les scénarios ;
-- les sauvegardes ;
-- les associations EnOcean et Zigbee.
+## Où sont mes données ?
 
-Ne supprimez pas ce dossier.
+Pas dans le dossier du programme, mais ici :
 
-## Lancer Sally ultérieurement
+```text
+C:\Users\TonNom\AppData\Local\Sally Home Connect
+```
 
-Double-cliquez sur l’icône **Sally Home Connect** présente sur le Bureau.
+On y trouve la maison (pièces, appareils), les routines, les réglages, les sauvegardes, le réseau Zigbee
+et les journaux (`logs`). La désinstallation garde ce dossier.
 
-L’application démarre sans fenêtre de terminal et ouvre automatiquement le navigateur.
+## Si Sally ne démarre pas
 
-## Désinstaller Sally
+- Un message s'affiche avec l'emplacement du journal : `AppData\Local\Sally Home Connect\logs\sally.log`.
+- Envoie-nous ce fichier par l'onglet **Issues** ou à **sallyhomeconnect@gmail.com**.
 
-Utilisez les paramètres Windows :
+## Désinstaller
 
 ```text
 Paramètres > Applications > Applications installées > Sally Home Connect > Désinstaller
 ```
 
-La désinstallation retire le programme, mais conserve vos données dans votre dossier utilisateur.
-
-## Besoin d’aide
-
-Consultez la documentation intégrée à Sally ou ouvrez une demande dans l’onglet **Issues** du dépôt GitHub.
+Le programme est retiré ; tes données restent dans ton dossier utilisateur.
