@@ -1,5 +1,7 @@
 # Sally Home Connect — bêta Windows
 
+🇬🇧 [English version](README.en.md)
+
 **Ta maison connectée, sans travaux, et tes données restent chez toi.**
 
 Sally Home Connect pilote tes lumières, prises, volets et chauffage depuis ton ordinateur et ton téléphone,
@@ -15,6 +17,7 @@ Sally Home Connect pilote tes lumières, prises, volets et chauffage depuis ton 
 - Windows 10 ou 11, 64 bits
 - **30 jours d'essai gratuit**, avec toutes les fonctions
 - Rien d'autre à installer : Node.js est inclus
+- Installateur en français, anglais, allemand, espagnol et italien
 - **Pas de matériel ? Une démonstration** avec une maison et des appareils simulés est incluse
 
 Le guide pas à pas : [INSTALLATION-WINDOWS.md](INSTALLATION-WINDOWS.md)

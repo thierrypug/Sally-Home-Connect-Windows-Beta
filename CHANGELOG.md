@@ -1,5 +1,15 @@
 # Changements
 
+🇬🇧 [English version](CHANGELOG.en.md)
+
+## Version 0.2.3-beta — Sally parle ta langue
+
+- **l'installateur demande ta langue** : français, anglais, allemand, espagnol ou italien (celle de Windows est
+  proposée d'office) ;
+- les raccourcis du menu Démarrer, le Lisez-moi et le message d'erreur (si Sally ne démarre pas) sont dans la
+  langue choisie ;
+- documentation en anglais sur GitHub.
+
 ## Version 0.2.2-beta — Bienvenue, et la sauvegarde réparée
 
 - **assistant de bienvenue** au premier lancement : la langue, le nom de ta maison, puis les adresses pour ouvrir

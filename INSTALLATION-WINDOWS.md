@@ -1,5 +1,7 @@
 # Installation de Sally Home Connect sous Windows
 
+🇬🇧 [English version](INSTALLATION-WINDOWS.en.md)
+
 ## Ce qu'il faut
 
 - Windows 10 ou Windows 11, 64 bits ;
@@ -23,7 +25,7 @@ Node.js est inclus dans l'installateur : rien d'autre à installer.
 2. Télécharge le fichier de la dernière version, par exemple :
 
    ```text
-   SallyHomeConnect-Setup-Beta-v0.2.1-beta.exe
+   SallyHomeConnect-Setup-Beta-v0.2.3-beta.exe
    ```
 
 3. Double-clique sur le fichier téléchargé.
@@ -34,10 +36,11 @@ Clique sur **Informations complémentaires** puis **Exécuter quand même**.
 ## Installer
 
 1. Accepte la demande d'autorisation de Windows.
-2. Garde le dossier proposé (`C:\Program Files\Sally Home Connect`).
-3. Laisse cochée l'icône sur le Bureau. Coche « Démarrer Sally avec Windows » si tu veux qu'elle se lance
+2. Choisis la langue de l'installateur (celle de Windows est proposée d'office).
+3. Garde le dossier proposé (`C:\Program Files\Sally Home Connect`).
+4. Laisse cochée l'icône sur le Bureau. Coche « Démarrer Sally avec Windows » si tu veux qu'elle se lance
    à chaque démarrage de l'ordinateur.
-4. Termine l'installation : Sally démarre et ton navigateur s'ouvre.
+5. Termine l'installation : Sally démarre et ton navigateur s'ouvre.
 
 **Tu avais une bêta 0.1 ?** Installe simplement par-dessus : l'ancienne version est remplacée.
 Tes appareils devront être ajoutés à nouveau, car Sally a été entièrement refaite (voir le CHANGELOG).
