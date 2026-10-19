@@ -5,7 +5,7 @@
 **Ta maison connectée, sans travaux, et tes données restent chez toi.**
 
 Sally Home Connect pilote tes lumières, prises, volets et chauffage depuis ton ordinateur et ton téléphone,
-**100 % en local** : pas de compte, pas de cloud, aucune donnée de ta maison ne sort de chez toi.
+**100 % en local** : pas de compte en ligne, pas de cloud, aucune donnée de ta maison ne sort de chez toi.
 
 > **Nous cherchons des testeurs !** Essaie Sally et dis-nous ce que tu en penses :
 > onglet [Issues](../../issues) ou **sallyhomeconnect@gmail.com**
@@ -29,8 +29,10 @@ Le guide pas à pas : [INSTALLATION-WINDOWS.md](INSTALLATION-WINDOWS.md)
 - Routines (« quand… si… alors… »), ambiances, chauffage programmé à la semaine
 - Modes de la maison : présent, absent, nuit, vacances (avec présence simulée)
 - Suivi de l'énergie et de son coût (heures pleines et creuses)
-- Alertes : fuite d'eau, fumée, pile faible, appareil qui ne répond plus
-- **Commande vocale en français, qui fonctionne sans Internet** : la voix ne quitte jamais la maison
+- Alertes dites à voix haute : fuite d'eau, fumée, pile faible, appareil qui ne répond plus
+- **Code d'accès** et comptes pour la famille, accès invité limité dans le temps
+- **Commande vocale dans les 5 langues, qui fonctionne sans Internet** : la voix ne quitte jamais la maison ; Sally te répond à voix haute
+- **La vie de famille** : messages entre habitants, rappels, réveil sans sonnerie, « bonne nuit », « je pars / je rentre », liste de courses partagée
 - Interface en français, anglais, espagnol, italien et allemand
 
 ## Matériel compatible
@@ -49,11 +51,12 @@ grâce à une bibliothèque fournie avec Sally : aucune recherche sur Internet.
 
 - Aucun compte en ligne, aucun abonnement, aucun service cloud.
 - Tout fonctionne sans Internet.
-- Sally ne consulte jamais Internet sans ton accord. Seule la météo peut l'être, si tu l'autorises dans les Réglages.
+- Sally ne consulte jamais Internet sans ton accord. Seules la météo et la recherche de mises à jour peuvent l'être, si tu l'autorises dans les Réglages.
 
 ## Bon à savoir pour cette bêta
 
-- Toute personne connectée à ton Wi-Fi peut piloter la maison : les comptes et l'accès invité arrivent bientôt.
+- Ta maison est protégée par un code d'accès, choisi au premier démarrage : personne ne la pilote sans lui,
+  même connecté à ton Wi-Fi.
 - La version finale de Sally est prévue pour un **Raspberry Pi**, allumé jour et nuit sans écran. Elle n'est pas
   encore publiée : ta maison créée pendant l'essai pourra y être transférée sans rien refaire.
 - La bêta est **gratuite** et fournie **telle quelle, sans garantie** : c'est une version d'essai, des défauts
