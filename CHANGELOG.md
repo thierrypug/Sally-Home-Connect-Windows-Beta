@@ -2,6 +2,37 @@
 
 🇬🇧 [English version](CHANGELOG.en.md)
 
+## Version 0.2.5-beta — Sally 2.0 : la vie de famille
+
+- **la vie de famille** : habitants (adultes et enfants), **messages** entre habitants livrés au bon moment (au lever,
+  en passant dans une pièce…), **rappels**, **réveil sans sonnerie** (chauffage, lumière qui monte doucement, volets),
+  **« bonne nuit »** qui dit ce qui reste ouvert, **veilleuse**, **résumé du matin** ;
+- **« je pars » / « je rentre »** et **qui est là ?** ; quand l'alarme est armée, une minute pour rentrer avant l'alerte ;
+- **liste de courses partagée**, avec une copie lisible sur le téléphone au magasin ;
+- en vacances, Sally **rejoue les habitudes de la maison** ; date de retour : chauffage remis en confort avant ton arrivée ;
+- **commande vocale dans les 5 langues**, sans Internet ; Sally **répond à voix haute** (voix de femme par défaut,
+  au choix dans Réglages → Voix de Sally) ;
+- **alertes dites à voix haute**, en carte sur l'accueil jusqu'à ce que tu les **effaces** ; « C'est l'interrupteur »
+  pour une lampe coupée au mur ;
+- **NodOn** : relais double, contact sec, mesure d'énergie, détecteur de mouvement et volet EnOcean ;
+  **guide d'appairage par marque** dans l'assistant d'ajout ;
+- corrections : clé Zigbee bloquée après une remise à zéro à distance, pourcentage de la lampe en direct,
+  listes déroulantes lisibles.
+
+## Version 0.2.4-beta — Sally 2.0 : code d'accès, achat et mises à jour (comprise dans la 0.2.5)
+
+- **ta maison est protégée par un code d'accès** : sans lui, personne ne la pilote, même connecté à ton Wi-Fi. Tu le
+  choisis au premier lancement (si tu avais une bêta 0.2, Sally te le demande à l'ouverture) ; chaque téléphone reste
+  connecté ;
+- **comptes pour la famille** et **accès invité** limité dans le temps, éventuellement à quelques pièces
+  (Réglages → Comptes et accès) ;
+- **code de secours** si tu oublies ton code d'accès ;
+- **acheter Sally depuis l'application** (Réglages → Acheter Sally) : après le paiement, Sally s'active toute seule
+  (la vente ouvrira prochainement ; pendant la bêta, la page d'achat permet de nous écrire avec ton code) ;
+- **mises à jour** : si tu autorises Internet, Sally te prévient d'une nouvelle version (Réglages → Mises à jour) ;
+  sur le Raspberry Pi, elle s'installe d'un bouton et revient seule à l'ancienne en cas de problème ;
+- trois nouveaux sujets dans l'Aide : Code d'accès et comptes, Mises à jour, Acheter Sally.
+
 ## Version 0.2.3-beta — Sally parle ta langue
 
 - **l'installateur demande ta langue** : français, anglais, allemand, espagnol ou italien (celle de Windows est

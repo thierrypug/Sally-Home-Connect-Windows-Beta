@@ -25,7 +25,7 @@ Node.js est inclus dans l'installateur : rien d'autre à installer.
 2. Télécharge le fichier de la dernière version, par exemple :
 
    ```text
-   SallyHomeConnect-Setup-Beta-v0.2.3-beta.exe
+   SallyHomeConnect-Setup-Beta-v0.2.5-beta.exe
    ```
 
 3. Double-clique sur le fichier téléchargé.
@@ -42,6 +42,9 @@ Clique sur **Informations complémentaires** puis **Exécuter quand même**.
    à chaque démarrage de l'ordinateur.
 5. Termine l'installation : Sally démarre et ton navigateur s'ouvre.
 
+**Tu avais une bêta 0.2 ?** Installe par-dessus : ta maison est gardée. Au premier lancement, Sally te demande
+de choisir ton code d'accès.
+
 **Tu avais une bêta 0.1 ?** Installe simplement par-dessus : l'ancienne version est remplacée.
 Tes appareils devront être ajoutés à nouveau, car Sally a été entièrement refaite (voir le CHANGELOG).
 
@@ -55,6 +58,10 @@ https://localhost
 
 Il affiche un avertissement de sécurité : c'est normal, Sally utilise son propre certificat, créé sur ton
 ordinateur. Clique sur **Paramètres avancés** puis **Continuer vers localhost**.
+
+Un assistant te guide ensuite : la langue, ton **code d'accès** (sans lui, personne ne pilote ta maison, même
+connecté à ton Wi-Fi), le nom de ta maison, puis les adresses pour ouvrir Sally sur ton téléphone. Sally te donne
+aussi un **code de secours** : écris-le sur papier, il sert si tu oublies ton code d'accès.
 
 Branche ta clé USB **avant** de démarrer Sally : elle la trouve toute seule. Ajoute ensuite tes appareils
 avec le bouton **Ajouter un appareil**.

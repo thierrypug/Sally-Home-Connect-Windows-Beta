@@ -2,6 +2,36 @@
 
 🇫🇷 [Version française](CHANGELOG.md)
 
+## Version 0.2.5-beta — Sally 2.0: family life
+
+- **family life**: household members (adults and children), **messages** between them delivered at the right moment
+  (when they get up, when they walk into a room…), **reminders**, **gentle wake-up** without an alarm (heating, light
+  rising slowly, shutters), **"good night"** that tells you what is still open, **night light**, **morning summary**;
+- **"I'm leaving" / "I'm home"** and **who's home?**; when the alarm is on, one minute to come in before the alert;
+- **shared shopping list**, with a copy readable on your phone at the shop;
+- on holiday, Sally **replays your home's habits**; return date: heating back to comfort before you arrive;
+- **voice control in 5 languages**, without the Internet; Sally **answers out loud** (female voice by default,
+  you can pick another one in Settings → Sally's voice);
+- **alerts spoken aloud**, shown as a card on the home screen until you **clear** them; "It's the wall switch"
+  for a lamp switched off at the wall;
+- **NodOn**: double relay, dry contact, energy meter, EnOcean motion sensor and shutter;
+  **pairing guide by brand** in the add-device assistant;
+- fixes: Zigbee stick blocked after a remote reset, live lamp percentage, readable drop-down lists.
+
+## Version 0.2.4-beta — Sally 2.0: access code, purchase and updates (included in 0.2.5)
+
+- **your home is protected by an access code**: without it, nobody can control it, even on your Wi-Fi. You choose
+  it the first time you start Sally (if you had a 0.2 beta, Sally asks for it when you open it); each phone stays
+  signed in;
+- **family accounts** and time-limited **guest access**, possibly limited to a few rooms
+  (Settings → Accounts and access);
+- **recovery code** if you forget your access code;
+- **buy Sally from the app** (Settings → Buy Sally): after paying, Sally activates by itself (sales open soon;
+  during the beta, the purchase page lets you write to us with your code);
+- **updates**: if you allow the Internet, Sally tells you about a new version (Settings → Updates); on the
+  Raspberry Pi, it installs with one tap and goes back to the previous version by itself if something goes wrong;
+- three new Help topics: Access code and accounts, Updates, Buying Sally.
+
 ## Version 0.2.3-beta — Sally speaks your language
 
 - **the installer now asks for your language**: English, French, German, Spanish or Italian

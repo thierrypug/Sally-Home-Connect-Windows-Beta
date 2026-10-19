@@ -5,7 +5,7 @@
 **Your smart home, no rewiring, and your data stays at home.**
 
 Sally Home Connect controls your lights, plugs, shutters and heating from your computer and your phone,
-**100% locally**: no account, no cloud, no data from your home ever leaves it.
+**100% locally**: no online account, no cloud, no data from your home ever leaves it.
 
 > **We're looking for testers!** Try Sally and tell us what you think:
 > [Issues](../../issues) tab or **sallyhomeconnect@gmail.com**
@@ -29,8 +29,10 @@ Step-by-step guide: [INSTALLATION-WINDOWS.en.md](INSTALLATION-WINDOWS.en.md)
 - Routines ("when… if… then…"), scenes, weekly heating schedules
 - Home modes: home, away, night, holidays (with simulated presence)
 - Energy use and cost tracking (peak and off-peak hours)
-- Alerts: water leak, smoke, low battery, device not responding
-- **Voice control that works without Internet**: your voice never leaves your home
+- Alerts spoken aloud: water leak, smoke, low battery, device not responding
+- **Access code** and family accounts, time-limited guest access
+- **Voice control in 5 languages that works without Internet**: your voice never leaves your home; Sally answers out loud
+- **Family life**: messages between family members, reminders, gentle wake-up, "good night", "I'm leaving / I'm home", shared shopping list
   (French only for now)
 - Interface in English, French, German, Spanish and Italian
 
@@ -50,11 +52,12 @@ thanks to a library shipped with Sally: nothing is looked up on the Internet.
 
 - No online account, no subscription, no cloud service.
 - Everything works without Internet.
-- Sally never accesses the Internet without your permission. Only the weather can be fetched, if you allow it in Settings.
+- Sally never accesses the Internet without your permission. Only the weather and update checks can use it, if you allow it in Settings.
 
 ## Good to know about this beta
 
-- Anyone connected to your Wi-Fi can control the home: accounts and guest access are coming soon.
+- Your home is protected by an access code, chosen the first time you start Sally: nobody can control it without
+  it, even on your Wi-Fi.
 - The final version of Sally is designed for a **Raspberry Pi**, running day and night without a screen. It is not
   published yet: the home you create during the trial can be transferred to it without redoing anything.
 - The beta is **free** and provided **as is, without warranty**: it is a trial version and some bugs may remain.
