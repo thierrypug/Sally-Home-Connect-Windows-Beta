@@ -2,6 +2,27 @@
 
 🇬🇧 [English version](CHANGELOG.en.md)
 
+## Version 0.2.6-beta — Plus simple, plus économe
+
+- **ajouter un appareil** commence par ce que tu ajoutes : **Lumière, Volets, Chauffage, Relais** ou **Divers** (tu
+  écris toi-même ce que c'est, et ce nom devient celui de l'appareil) ; puis la marque ; Sally ne demande « Zigbee ou
+  EnOcean ? » que si besoin (chez NodOn, la référence le dit : un 2 = EnOcean, un 4 = Zigbee) et lit à voix haute la
+  bonne manipulation ;
+- **économies automatiques** : une fenêtre ouverte plus de 30 secondes met le chauffage de la pièce en hors-gel, puis
+  il reprend son mode à la fermeture ; une lumière oubliée dans une pièce vide depuis 30 minutes est éteinte ; l'accueil
+  montre **ce que Sally t'a fait économiser ce mois-ci, en euros** (Réglages → Économies pour les couper) ;
+- **routines** : nouvelle case **« Revenir comme avant à la fin »** (fenêtre refermée → chaque appareil reprend l'état
+  qu'il avait) et nouvelle condition **« le chauffage n'est pas arrêté »** ;
+- **tableau de bord** (Pièces → Tableau de bord) : une case par pièce, de la couleur de ce qui s'y passe ; tu peux y
+  ajouter la **photo du plan de ta maison** et y poser chaque pièce ;
+- **inviter la famille par QR code** : la personne le scanne avec son téléphone et se retrouve connectée, sans code à
+  taper (une seule fois, pendant 24 heures) ;
+- la tuile **« Je pars »** devient **« Je rentre »** quand tu es sorti ; **l'œil** pour voir ton code d'accès en le
+  tapant ; **changer son prénom** ; **taille d'affichage « Petit »** au départ (Réglages pour changer) ;
+- **volet EnOcean** : bouton **Stop**, et rappuyer sur la flèche du mouvement en cours l'arrête ;
+- consignes d'appairage corrigées (module EnOcean : appui de plus de 5 secondes ; ampoule qui ne connaît pas la
+  remise à zéro à distance) ; un appareil débranché qu'on retire de Sally quitte bien le réseau Zigbee.
+
 ## Version 0.2.5-beta — Sally 2.0 : la vie de famille
 
 - **la vie de famille** : habitants (adultes et enfants), **messages** entre habitants livrés au bon moment (au lever,

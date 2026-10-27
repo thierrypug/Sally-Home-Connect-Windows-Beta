@@ -25,7 +25,7 @@ Node.js est inclus dans l'installateur : rien d'autre à installer.
 2. Télécharge le fichier de la dernière version, par exemple :
 
    ```text
-   SallyHomeConnect-Setup-Beta-v0.2.5-beta.exe
+   SallyHomeConnect-Setup-Beta-v0.2.6-beta.exe
    ```
 
 3. Double-clique sur le fichier téléchargé.

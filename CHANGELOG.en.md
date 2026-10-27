@@ -2,6 +2,26 @@
 
 🇫🇷 [Version française](CHANGELOG.md)
 
+## Version 0.2.6-beta — Simpler, and it saves energy
+
+- **adding a device** starts with what you are adding: **Light, Shutters, Heating, Relay** or **Other** (you type what
+  it is yourself, and it becomes the device's name); then the brand; Sally only asks "Zigbee or EnOcean?" when needed
+  (for NodOn, the reference tells you: a 2 = EnOcean, a 4 = Zigbee) and reads the right pairing steps aloud;
+- **automatic savings**: a window open for more than 30 seconds puts the room's heating on frost protection, then it
+  returns to its mode when closed; a forgotten light in a room empty for 30 minutes is switched off; the home screen
+  shows **what Sally saved you this month, in euros** (Settings → Savings to switch them off);
+- **routines**: new **"Go back to how it was at the end"** switch (window closed → each device returns to its previous
+  state) and new condition **"the heating is not off"**;
+- **dashboard** (Rooms → Dashboard): one box per room, in the colour of what is happening there; you can add a **photo
+  of your floor plan** and place each room on it;
+- **invite your family with a QR code**: they scan it with their phone and are signed in, with no code to type (once
+  only, for 24 hours);
+- the **"Leaving"** tile becomes **"I'm home"** when you are out; **the eye** to see your access code while typing it;
+  **change your name**; **"Small" display size** by default (change it in Settings);
+- **EnOcean shutter**: **Stop** button, and tapping the arrow of the current movement again stops it;
+- pairing instructions fixed (EnOcean module: press for more than 5 seconds; bulbs that don't support remote reset);
+  a device that is unplugged and removed from Sally really leaves the Zigbee network.
+
 ## Version 0.2.5-beta — Sally 2.0: family life
 
 - **family life**: household members (adults and children), **messages** between them delivered at the right moment

@@ -33,7 +33,8 @@ Step-by-step guide: [INSTALLATION-WINDOWS.en.md](INSTALLATION-WINDOWS.en.md)
 - **Access code** and family accounts, time-limited guest access
 - **Voice control in 5 languages that works without Internet**: your voice never leaves your home; Sally answers out loud
 - **Family life**: messages between family members, reminders, gentle wake-up, "good night", "I'm leaving / I'm home", shared shopping list
-  (French only for now)
+- **Sally saves energy for you**: heating cut when a window stays open, forgotten lights switched off, monthly savings in euros
+- Room dashboard (with your floor plan if you like), family invitation by QR code
 - Interface in English, French, German, Spanish and Italian
 
 ## Compatible hardware

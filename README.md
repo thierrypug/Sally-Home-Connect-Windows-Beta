@@ -33,6 +33,8 @@ Le guide pas à pas : [INSTALLATION-WINDOWS.md](INSTALLATION-WINDOWS.md)
 - **Code d'accès** et comptes pour la famille, accès invité limité dans le temps
 - **Commande vocale dans les 5 langues, qui fonctionne sans Internet** : la voix ne quitte jamais la maison ; Sally te répond à voix haute
 - **La vie de famille** : messages entre habitants, rappels, réveil sans sonnerie, « bonne nuit », « je pars / je rentre », liste de courses partagée
+- **Sally te fait économiser** : chauffage coupé quand une fenêtre reste ouverte, lumières oubliées éteintes, bilan du mois en euros
+- Tableau de bord des pièces (avec le plan de ta maison si tu veux), invitation de la famille par QR code
 - Interface en français, anglais, espagnol, italien et allemand
 
 ## Matériel compatible
