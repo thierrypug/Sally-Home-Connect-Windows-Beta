@@ -59,8 +59,9 @@ thanks to a library shipped with Sally: nothing is looked up on the Internet.
 
 - Your home is protected by an access code, chosen the first time you start Sally: nobody can control it without
   it, even on your Wi-Fi.
-- The final version of Sally is designed for a **Raspberry Pi**, running day and night without a screen. It is not
-  published yet: the home you create during the trial can be transferred to it without redoing anything.
+- The version you live with runs on a **Raspberry Pi**, on day and night without a screen:
+  [**Sally Home Connect – Raspberry Pi**](https://github.com/thierrypug/Sally-Home-Connect-Raspberry-Pi). The home
+  you create during the trial moves to it in one tap, without redoing anything.
 - The beta is **free** and provided **as is, without warranty**: it is a trial version and some bugs may remain.
   It collects no data: everything stays on your computer.
 - What's new in each version: [CHANGELOG.en.md](CHANGELOG.en.md)
